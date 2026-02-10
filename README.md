@@ -29,7 +29,7 @@
 
 ## 🔑 环境变量配置
 
-请在 Cloudflare Workers 中配置以下 Secret：
+请在 Cloudflare Workers 中配置以下变量：
 
 | 变量名    | 说明             |
 | ------ | -------------- |
@@ -53,8 +53,6 @@
 ```
 https://your-worker-or-pages-url/?token=你的TOKEN
 ```
-
-点击访问即可看到邮件发送页面。
 
 ---
 
@@ -90,11 +88,6 @@ Token: xxxxxx
 * API Key 存储于 Secret / 环境变量，不暴露前端
 * 域名不可前端修改
 * 请求参数校验
-
-建议：
-
-* 定期更换 TOKEN
-* 不要泄露 Worker 地址
 
 ---
 
