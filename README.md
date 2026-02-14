@@ -76,15 +76,6 @@ Token: xxxxxx
 * 域名不可前端修改
 * 请求参数校验
 
-
-## 📚 技术栈
-
-* Cloudflare Workers / Pages
-* JavaScript (ES Module)
-* Resend API
-* HTML / CSS
-
-
 ## 🛠 开发建议
 
 本项目适用于：
