@@ -76,9 +76,6 @@ Token: xxxxxx
 * 域名不可前端修改
 * 请求参数校验
 
-## 📄 License
-
-MIT License
 
 ## ❤️ 致谢
 
