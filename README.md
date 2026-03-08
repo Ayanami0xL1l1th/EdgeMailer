@@ -38,7 +38,7 @@
 3. **在环境变量中设置** `API`、`TOKEN`、`DOMAIN`
 4. 打开 Worker 地址即可访问
 
-示例访问地址：
+访问地址：
 
 ```
 https://your-worker-or-pages-url/?token=你的TOKEN
@@ -50,7 +50,6 @@ https://your-worker-or-pages-url/?token=你的TOKEN
 
 | 字段    | 说明                                                             |
 | ----- | -------------------------------------------------------------- |
-| Token | 访问密钥（TOKEN）                                                    |
 | 发件前缀  | 例如：admin → [admin@yourdomain.com](mailto:admin@yourdomain.com) |
 | 收件人   | 目标邮箱地址                                                         |
 | 主题    | 邮件主题                                                           |
