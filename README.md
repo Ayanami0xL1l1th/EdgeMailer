@@ -1,23 +1,6 @@
 # EdgeMailer
 
-🚀 一个基于 Cloudflare Workers + Resend API 的边缘邮件发送服务，支持网页端可视化发送邮件，安全、快速、可部署在全球边缘节点。
-
-## ✨ 功能特性
-
-* ✅ 基于 Cloudflare Workers 运行（无需服务器）
-* ✅ 使用 Resend API 发送邮件
-* ✅ 网页端可视化操作
-* ✅ API Key / Token / 域名 使用 Workers Secret 管理
-* ✅ 支持访问权限校验
-* ✅ 发件人前缀可自定义
-* ✅ 收件人 / 主题 / 正文完全自定义
-* ✅ 简洁美观的 Web UI
-
-## ⚙️ 环境要求
-
-* Cloudflare 账号
-* 已注册 Resend 并获取 API Key
-* 已在 Resend 中验证发件域名
+基于 Cloudflare Workers + Resend API 的边缘邮件发送服务，支持网页端可视化发送邮件，安全、快速、可部署在全球边缘节点。
 
 ## 🔑 环境变量配置
 
@@ -29,9 +12,7 @@
 | TOKEN  | 访问鉴权 Token     |
 | DOMAIN | 已验证的发件域名       |
 
-## 🚀 部署方式
-
-### 简单方式
+## 🚀 简单部署
 
 1. **Fork 本项目** 或者 **新建 Worker 项目**
 2. **复制 `worker.js` 内容** 到你的 Worker  项目中
@@ -65,15 +46,6 @@ https://your-worker-or-pages-url/?token=你的TOKEN
 ```
 
 点击 **发送** 即可完成邮件发送。
-
-
-## 🔐 安全机制
-
-* Token 校验，防止滥用
-* API Key 存储于 Secret / 环境变量，不暴露前端
-* 域名不可前端修改
-* 请求参数校验
-
 
 ## ❤️ 致谢
 
