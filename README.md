@@ -58,7 +58,6 @@ https://your-worker-or-pages-url/?token=你的TOKEN
 ### 示例
 
 ```
-Token: xxxxxx
 发件前缀: service
 收件人: test@gmail.com
 主题: 测试邮件
