@@ -1,6 +1,7 @@
 # EdgeMailer
 
-基于 Cloudflare Workers + Resend API 的边缘邮件发送服务，支持网页端可视化发送邮件，安全、快速、可部署在全球边缘节点。
+EdgeMailer 是一个基于 Cloudflare Workers 和 Resend API 的轻量级邮件发送面板。
+它提供一个简单的 Web UI，用于快速发送邮件，并支持多域名与多 API 绑定。
 
 ## 🔑 环境变量配置
 
@@ -8,10 +9,10 @@
 
 | 变量名    | 说明             |
 | ------ | -------------- |
-| API    | Resend API Key |
-| TOKEN  | 访问鉴权 Token     |
-| DOMAIN | 已验证的发件域名       |
-
+| API    | api1,api2 |
+| TOKEN  | your_token     |
+| DOMAIN | domain1,domain2       |
+API 与 DOMAIN 按顺序绑定。
 ## 🚀 简单部署
 
 1. **Fork 本项目** 或者 **新建 Worker 项目**
